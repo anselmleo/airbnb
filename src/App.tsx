@@ -1,8 +1,8 @@
-import NavBar from './components/NavBar'
+import Router from './router'
 function App() {
   return (
     <div>
-      <NavBar />
+      <Router />
     </div>
   )
 }
