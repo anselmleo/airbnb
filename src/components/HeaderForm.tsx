@@ -1,24 +1,29 @@
+import { IoSearchOutline } from 'react-icons/io5'
+
 const HeaderForm = () => {
   return (
-    <div className="flex justify-between w-6/12 mx-auto mt-10 items-center border- rounded-full px-3 py-3 text-sm">
-      <div>
-        <p>Where</p>
-        <input placeholder="Search destinations" type="text" />
+    <div className="flex w-6/12 mx-auto mt-5 items-center border border-gray-300 shadow-md rounded-full px-3 py-3 text-sm">
+      <div className="pl-2 border-r w-4/12 mr-5">
+        <div>Where</div>
+        <input placeholder="Search destinations" type="text" className="w-full" />
       </div>
-      <div>
-        <p>Check in</p>
-        <p>Add dates</p>
+      <div className="border-r w-2/12 mr-5">
+        <div>Check in</div>
+        <div>Add dates</div>
       </div>
-      <div>
-        <p>Check out</p>
-        <p>Add dates</p>
+      <div className="border-r w-2/12 mr-5">
+        <div>Check out</div>
+        <div>Add dates</div>
       </div>
-      <div className="flex">
+      <div className="w-4/12 flex justify-between items-center">
         <div>
-          <p>Who</p>
-          <p>Add guests</p>
+          <div>Who</div>
+
+          <div>Add guests</div>
         </div>
-        <div>Search</div>
+        <div className="px-4 py-4 rounded-full bg-pink-600">
+          <IoSearchOutline className="text-xl  text-white" />
+        </div>
       </div>
     </div>
   )
