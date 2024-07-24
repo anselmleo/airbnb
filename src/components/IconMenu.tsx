@@ -15,6 +15,7 @@ import { LiaSwimmingPoolSolid } from 'react-icons/lia'
 import { PiFarm } from 'react-icons/pi'
 import { SlCup } from 'react-icons/sl'
 import { IoChevronForward } from 'react-icons/io5'
+import { GiSiegeTower } from 'react-icons/gi'
 
 import Icon from './Icon'
 
@@ -40,7 +41,8 @@ const IconMenu = () => {
         <Icon Icon={PiIsland} IconText="Tropical" />
         <Icon Icon={LiaSwimmingPoolSolid} IconText="Amazing pools" />
         <Icon Icon={PiFarm} IconText="Farms" />
-        <Icon Icon={SlCup} IconText="Bed & breakfasts" />
+        <Icon Icon={SlCup} IconText="B & breakfasts" />
+        <Icon Icon={GiSiegeTower} IconText="Towers" />
       </div>
       <div className="w-8 h-8 flex items-center justify-center rounded-full border-gray-300 border">
         <IoChevronForward className="cursor-pointer" />
